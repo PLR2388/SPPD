@@ -1,0 +1,111 @@
+Calamity Heidi;Upgrade 39/70;316;69;2;adventure;character;melee;0;0.85;own_side;0.675;0.1;0.5;X;X
+Bandita Sally;Upgrade 12/70;67;65;2;adventure;character;assassin;0;0.7;own_side;1.26;0.1;0.5;X;X
+Smuggler Ike;Upgrade 30/70;110;107;2;adventure;character;assassin;0;0.45;own_side;1.26;0.1;0.5;power_attack_boost;X
+Captain Wendy;Level 1;84;19;3;adventure;character;ranged;1;4;own_side;0.675;0.1;0.5;power_damage;X
+Deckhand Butters;Upgrade 8/70;63;63;3;adventure;character;assassin;0;0.6;own_side;1.35;0.1;0.5;power_heal;power_hero_heal
+Gunslinger Kyle;Upgrade 8/70;84;26;3;adventure;character;ranged;0;3.75;own_side;0.855;0.1;0.5;power_attack_boost;X
+Hookhand Clyde;Upgrade 10/70;278;60;3;adventure;character;melee;2;0.7;own_side;0.675;0.1;0.5;power_damage;power_hero_damage
+Pirate Ship Timmy;Level 1;96;36;3;adventure;character;ranged;1;5;own_side;0.675;0.1;0.5;power_damage;X
+Shaman Token;Level 1;127;30;3;adventure;character;melee;0;0.6;own_side;0.675;0.1;0.5;power_special;X
+Storyteller Jimmy;Level 1;211;48;3;adventure;character;melee;2;0.5;own_side;0.675;0.1;0.5;power_attack_decrease;X
+Arrowstorm;Level 3;30;4;4;adventure;spell;None;2;None;anywhere;None;None;None;power_damage;X
+Barrel Dougie;Upgrade 5/70;91;87;4;adventure;character;assassin;1;0.55;own_side;1.17;0.1;0.5;power_attack_boost;X
+Buccaneer Bebe;Level 1;160;37;4;adventure;character;ranged;1;4;own_side;0.675;0.1;0.5;power_attack_boost;X
+Lightning Bolt;Level 3;30;4;4;adventure;spell;None;1;None;anywhere;None;None;None;power_damage;power_hero_damage
+Outlaw Tweek;Upgrade 10/70;105;28;4;adventure;character;ranged;0;4;own_side;0.9;0.1;0.5;power_damage;power_hero_damage
+Medicine Woman Sharon;Level 1;180;28;4;adventure;character;ranged;1;3.5;own_side;0.675;0.1;0;power_heal;X
+Sheriff Cartman;Upgrade 9/70;607;21;4;adventure;character;tank;1;1;own_side;0.45;0.1;0.5;power_damage;X
+Swashbuckler Red;Level 1;250;55;4;adventure;character;melee;2;0.6;own_side;0.675;0.1;0.5;None;X
+Thunderbird;Level 1;300;0;4;adventure;character;melee;1;None;own_side;0.46;0.1;None;power_damage;X
+Pocahontas Randy;Upgrade 2/70;412;60;5;adventure;character;melee;2;0.8;own_side;0.495;0.1;0.5;power_summon_level;X
+Fireball;Level 3;30;4;5;adventure;spell;None;1;None;anywhere;None;None;None;power_damage;power_hero_damage
+Swordsman Garrison;Level 1;395;45;5;adventure;character;melee;1;1;own_side;0.7;0.1;0.5;power_damage;X
+Captain Diabetes;Level 1;100;20;2;superhero;character;melee;0;0.7;own_side;0.675;0.1;0.5;None;X
+Super Fart;Level 1;30;4;2;superhero;spell;None;0;None;anywhere;None;None;None;power_damage;X
+Chomper;Level 1;30;4;2;superhero;trap;None;1;None;own_side;None;None;None;power_damage;X
+Fastpass;Level 1;211;48;3;superhero;character;melee;2;0.5;own_side;0.675;0.1;0.5;power_damage;X
+Lava!;Level 1;30;0;3;superhero;trap;None;0;None;own_side;None;None;None;power_damage;X
+Mosquito;Level 1;200;34;3;superhero;character;melee;1;0.7;own_side;0.675;0.1;0.5;power_summon_level;X
+Professor Chaos;Level 1;77;82;3;superhero;character;assassin;2;0.6;own_side;1.35;0.1;0.5;power_damage;X
+Toolshed;Level 1;260;57;3;superhero;character;melee;2;0.8;own_side;0.495;0.1;0.5;power_summon_level;X
+Doctor Timothy;Level 1;150;40;4;superhero;character;ranged;1;5;own_side;0.33;0.1;0.5;power_damage;X
+General Disarray;Level 1;84;72;4;superhero;character;assassin;1;0.55;own_side;1.17;0.1;0.5;power_summon_level;X
+Human Kite;Level 1;140;26;4;superhero;character;ranged;2;3.75;own_side;0.675;0.1;0.5;None;X
+Tupperware;Level 1;250;33;4;superhero;character;melee;0;0.6;own_side;0.675;0.1;0.5;X;X
+The Coon;Level 1;684;18;5;superhero;character;tank;2;1.05;own_side;0.45;0.1;0.5;power_attack_boost;X
+Dogpoo;Upgrade 13/70;337;112;3;general;character;melee;2;0.7;own_side;0.675;0.1;0;X;X
+Nelly;Level 2;234;29;3;general;character;melee;1;1.5;own_side;0.675;0.1;0.5;X;X
+Rat Swarm;Upgrade 20/70;21;27;3;general;character;assassin;0;0.4;own_side;1.5;0.1;0.5;X;X
+Towelie;Upgrade 2/70;261;29;3;general;character;melee;2;0.8;own_side;0.63;0.1;0.5;X;X
+Marcus;Upgrade 2/70;329;30;4;general;character;melee;2;0.7;own_side;0.675;0.1;0.5;power_damage;X
+Mayor McDaniels;Level 1;180;32;4;general;character;ranged;1;3.5;own_side;0.55;0.1;0.5;X;X
+Mr. Mackey;Level 1;250;28;4;general;character;melee;0;0.8;own_side;0.6;0.1;0.5;power_attack_boost;X
+Nathan;Upgrade 9/70;107;38;4;general;character;ranged;1;5.5;own_side;0.45;0.1;0.5;X;X
+PC Principal;Upgrade 2/70;467;28;4;general;character;tank;1;0.8;own_side;0.7;0.1;0.5;X;X
+Pigeon Gang;Upgrade 11/70;19;20;4;general;character;melee;0;0.6;own_side;0.82;0.1;0.5;X;X
+Starvin' Marvin;Upgrade 12/70;161;63;4;general;character;melee;1;0.5;own_side;0.765;0.1;0.5;X;X
+Terrance and Phillip;Upgrade 2/70;135;30;4;general;character;melee;0;0.7;own_side;0.675;0.1;0.5;X;X
+Terrance Mephesto;Upgrade 18/70;189;24;4;general;character;ranged;1;3.5;own_side;0.675;0.1;0.5;X;X
+Big Gay Al;Upgrade 20/70;576;43;5;general;character;ranged;1;4.5;own_side;0.675;0.1;0.5;X;X
+Mimsy;Upgrade 31/70;1115;54;5;general;character;tank;0;0.8;own_side;0.63;0.1;0.5;X;X
+Santa Claus;Level 1;700;35;5;general;character;tank;2;0.8;own_side;0.27;0.1;0.5;X;X
+Officer Barbrady;Upgrade 2/70;560;18;6;general;character;tank;1;0.8;own_side;0.675;0.1;0.5;power_damage;X
+Astronaut Butters;Upgrade 14/70;73;69;2;sci-fi;character;assassin;0;0.8;own_side;1.35;0.1;0.5;None;X
+Enforcer Jimmy;Level 1;158;36;2;sci-fi;character;melee;1;0.5;own_side;0.675;0.1;0.5;X;X
+Space Warrior Token;Level 2;185;44;2;sci-fi;character;melee;1;0.6;own_side;0.675;0.1;0.5;power_attack_boost;X
+Alien Clyde;Level 1;200;35;3;sci-fi;character;melee;0;0.75;own_side;0.675;0.1;0.5;power_poison;X
+Bounty Hunter Kyle;Upgrade 7/70;135;28;3;sci-fi;character;ranged;2;3.75;own_side;0.855;0.1;0.5;power_heal;power_attack_boost
+Four-assed Monkey;Upgrade 7/70;75;74;3;sci-fi;character;assassin;1;1.3;own_side;1.26;0.1;0.5;power_damage;X
+Freeze Ray;Level 2;30;4;3;sci-fi;spell;None;0;None;anywhere;None;None;None;None;X
+Gizmo Ike;Upgrade 25/70;174;174;3;sci-fi;character;assassin;2;0.45;own_side;0.7;0.1;0.5;power_summon_level;X
+Ice Sniper Wendy;Level 1;84;25;3;sci-fi;character;ranged;1;4;own_side;0.675;0.1;0.5;None;X
+Poison;Level 3;30;4;3;sci-fi;spell;None;0;None;anywhere;None;None;None;power_poison;X
+Program Stan;Upgrade 6/70;272;61;3;sci-fi;character;melee;2;0.6;own_side;0.675;0.1;0.5;power_damage;X
+Robo Bebe;Level 1;90;20;3;sci-fi;character;ranged;0;4;own_side;0.675;0.1;0.5;X;X
+Warboy Tweek;Upgrade 2/70;109;20;3;sci-fi;character;ranged;1;4.1;own_side;0.9;0.1;0.5;None;X
+Alien Drone;Level 1;200;35;4;sci-fi;character;melee;2;1;own_side;0.45;0.1;0.5;power_summon_level;X
+Cyborg Kenny;Upgrade 11/70;112;108;4;sci-fi;character;assassin;2;0.67;own_side;1.35;0.1;0.5;power_heal;X
+Hyperdrive;Level 3;30;4;4;sci-fi;spell;None;1;None;anywhere;None;None;None;None;X
+Marine Craig;Upgrade 5/70;84;15;4;sci-fi;character;ranged;0;3;own_side;0.675;0.1;0.5;power_poison;X
+Mind Control;Level 3;30;4;4;sci-fi;spell;None;1;None;own_side;None;None;None;None;X
+Powerfist Dougie;Upgrade 15/70;119;113;4;sci-fi;character;assassin;1;0.55;own_side;1.17;0.1;0.5;None;X
+Alien Queen Red;Level 1;172;34;5;sci-fi;character;melee;1;0.4;own_side;0.675;0.1;0.5;power_poison;X
+A.W.E.S.O.M.-O 4000;Upgrade 11/70;956;29;5;sci-fi;character;tank;2;1.05;own_side;0.27;0.1;0.5;None;X
+Choirboy Butters;Level 1;77;82;2;mystical;character;assassin;2;0.6;own_side;1.35;0.1;0.5;X;X
+Power Bind;Level 1;30;4;2;mystical;spell;None;0;None;anywhere;None;None;None;None;X
+Purify;Level 1;30;4;2;mystical;spell;None;0;None;anywhere;None;None;None;X;X
+Angel Wendy;Upgrade 24/70;132;30;3;mystical;character;ranged;0;4;own_side;0.675;0.1;0.5;power_heal;X
+Cupid Cartman;Level 1;100;40;3;mystical;character;ranged;1;2.2;own_side;1.25;0.1;0.5;X;X
+Friar Jimmy;Upgrade 31/70;297;66;3;mystical;character;melee;0;0.5;own_side;0.675;0.1;0.5;power_heal;X
+Hercules Clyde;Upgrade 2/70;156;34;3;mystical;character;melee;1;0.7;own_side;0.675;0.1;0.5;power_damage;X
+Hermes Kenny;Upgrade 3/70;79;84;3;mystical;character;assassin;2;0.75;own_side;1.44;0.1;0.5;None;X
+Poseidon Stan;Upgrade 8/70;173;39;3;mystical;character;melee;0;0.78;own_side;0.675;0.1;0.5;None;X
+Regeneration;Level 2;30;4;3;mystical;spell;None;1;None;anywhere;None;None;None;power_heal;X
+Scout Ike;Level 1;48;51;3;mystical;character;assassin;0;0.45;own_side;1.26;0.1;0.5;X;X
+Youth Pastor Craig;Level 1;126;25;3;mystical;character;ranged;1;3;own_side;0.675;0.1;0.5;None;X
+Zen Cartman;Upgrade 22/70;975;0;3;mystical;character;tank;1;None;own_side;0.315;0.1;None;None;X
+Energy Staff;Level 1;240;0;4;mystical;character;totem;1;None;own_side;None;None;None;X;X
+Hallelujah;Level 1;30;4;4;mystical;spell;None;1;None;anywhere;None;None;None;power_heal;X
+Imp Tweek;Level 1;158;35;4;mystical;character;melee;2;1;own_side;0.9;0.1;0.5;X;X
+Prophet Dougie;Upgrade 2/70;94;80;4;mystical;character;assassin;1;0.55;own_side;1.17;0.1;0.5;None;X
+Sexy Nun Randy;Upgrade 13/70;563;71;5;mystical;character;melee;2;0.8;own_side;0.495;0.1;0.5;power_summon_level;X
+Unholy Combustion;Level 3;30;4;5;mystical;spell;None;1;None;anywhere;None;None;None;power_damage;X
+Pope Timmy;Upgrade 3/70;206;54;6;mystical;character;ranged;2;5;own_side;0.33;0.1;0.5;power_summon_level;X
+Paladin Butters;Upgrade 10/70;67;64;2;fantasy;character;assassin;0;0.8;own_side;1.35;0.1;0.5;None;X
+Underpants Gnomes;Upgrade 12/70;25;33;2;fantasy;character;assassin;1;0.4;own_side;1.35;0.1;0.5;X;X
+Blood Elf Bebe;Level 1;90;35;3;fantasy;character;ranged;0;4;own_side;0.675;0.1;0.5;power_max_hp_gain;X
+Canadian Knight Ike;Level 2;107;73;3;fantasy;character;assassin;1;0.8;own_side;1.26;0.1;0.5;power_max_hp_gain;X
+Catapult Timmy;Level 1;120;36;3;fantasy;character;ranged;1;5;own_side;0.27;0.1;0.5;power_summon_level;X
+Dark Mage Craig;Level 1;92;17;3;fantasy;character;ranged;1;3.5;own_side;0.675;0.1;0.5;None;X
+Stan the Great;Level 1;136;34;3;fantasy;character;melee;0;0.7;own_side;0.675;0.1;0.5;power_attack_decrease;X
+Dwarf Engineer Dougie;Level 3;152;135;4;fantasy;character;assassin;1;0.55;own_side;1.17;0.1;0.5;power_attack_boost;X
+Dwarf King Clyde;Level 1;156;34;4;fantasy;character;melee;1;0.75;own_side;0.675;0.1;0.5;power_damage;X
+Kyle of the Drow Elves;Upgrade 5/70;86;20;4;fantasy;character;ranged;1;3.75;own_side;0.885;0.1;0.5;None;X
+Le Bard Jimmy;Level 1;132;30;4;fantasy;character;melee;0;0.6;own_side;0.675;0.1;0.5;power_max_hp_loss;power_damage
+Robin Tweek;Level 1;80;20;4;fantasy;character;ranged;0;4;own_side;0.9;0.1;0.5;power_max_hp_gain;X
+Rogue Token;Upgrade 9/70;271;62;4;fantasy;character;melee;2;0.6;own_side;0.675;0.1;0.5;power_damage;X
+The Amazingly Randy;Upgrade 3/70;174;46;4;fantasy;character;ranged;2;4;own_side;0.675;0.1;0.5;power_summon_level;X
+Witch Garrison;Level 1;375;34;4;fantasy;character;melee;1;0.8;own_side;0.6;0.1;0.5;None;X
+Transmogrify;Level 2;30;4;5;fantasy;spell;None;2;None;anywhere;None;None;None;power_summon_level;X
+Cock Magic;Level 1;30;4;5;fantasy;spell;None;2;None;anywhere;None;None;None;power_target;X
+Grand Wizard Cartman;Level 1;1026;32;6;fantasy;character;tank;3;1.05;own_side;0.27;0.1;0.5;power_damage;X

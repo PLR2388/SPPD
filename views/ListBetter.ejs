@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Details des cartes de l'équipe></title>
+    <title>Modifier des éléments dans la liste</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-<h1>Tableau détails des cartes</h1>
+<h1>Tableau détails des bonnes cartes pour maximiser <%=title%></h1>
 <table border>
-<tr>
-    <td>Nom</td>
-    <td>Level</td>
-    <td>Santé</td>
-    <td>Dommage</td>
-    <td>Mana</td>
-    <td>Thème</td>
-    <td>Type de la carte</td>
-    <td>Type de personnage</td>
-    <td>Rareté</td>
-    <td>Étendu de l'attaque</td>
-    <td>Aire de cast</td>
-    <td>Vitesse max</td>
-    <td>Temps à atteindre la vitesse max</td>
-    <td>Temps entre les attaques</td>
-    <td>Pouvoir 1</td>
-    <td>Pouvoir 2</td>
+    <tr>
+        <td>Nom</td>
+        <td>Level</td>
+        <td>Santé</td>
+        <td>Dommage</td>
+        <td>Mana</td>
+        <td>Thème</td>
+        <td>Type de la carte</td>
+        <td>Type de personnage</td>
+        <td>Rareté</td>
+        <td>Étendu de l'attaque</td>
+        <td>Aire de cast</td>
+        <td>Vitesse max</td>
+        <td>Temps à atteindre la vitesse max</td>
+        <td>Temps entre les attaques</td>
+        <td>Pouvoir 1</td>
+        <td>Pouvoir 2</td>
 
-</tr>
-<% for(var i=0;i<array.length;i++){ %>
+    </tr>
+    <% for(var i=0;i<array.length;i++){ %>
     <tr>
         <td><%=array[i][0]%></td>
         <td><%=array[i][1]%></td>
@@ -45,9 +45,8 @@
         <td><%=array[i][14]%></td>
         <td><%=array[i][15]%></td>
     </tr>
-<%} %>
+    <%} %>
 </table>
-
 
 </body>
 </html>

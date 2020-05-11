@@ -119,9 +119,107 @@ router.post('/supprimerlistPerso', function(req, res, next) {
     res.render('DeleteElementCharacter',{done:true,array:arr});
 });
 
+
+router.get('/detailTeam',function (req,res,next) {
+    currentTeam="";
+    try {
+        const data = fs.readFileSync('team.csv', 'utf8')
+        currentTeam=data;
+    } catch (err) {
+        console.error(err)
+    }
+    const arr = CSV.parse(currentTeam);
+    let array=[];
+    for(var i=0;i<arr.length;i++){
+        let name=arr[i][0];
+        let level=arr[i][1];
+        let health;
+        let dammage;
+        let mana;
+        let theme;
+        let typeCarte;
+        let typePerso;
+        let rarete;
+        let rangeAttaque;
+        let castArea;
+        let vitesseMax;
+        let timeVitesseMax;
+        let timeBetweenAttaque;
+        let power1;
+        let power2;
+
+        levelDetail="";
+        try {
+            const data = fs.readFileSync("../LevelDetails/"+name+".csv", 'utf8');
+            levelDetail=data;
+        } catch (err) {
+            console.error(err)
+        }
+        const levelArray = CSV.parse(levelDetail);
+
+        for(let j=0;j<levelArray.length;j++){
+            if(levelArray[j][0]==level){
+                health=levelArray[j][1];
+                dammage=levelArray[j][2];
+                break;
+            }
+        }
+
+        detailcard="";
+        try {
+            const data = fs.readFileSync("../DetailCard/"+name+".csv", 'utf8');
+            detailcard=data;
+        } catch (err) {
+            console.error(err)
+        }
+        const detailCardArray = CSV.parse(detailcard);
+
+        mana=detailCardArray[1][1];
+        theme=detailCardArray[1][3];
+        typeCarte=detailCardArray[1][2];
+        typePerso=detailCardArray[1][4];
+        rarete=detailCardArray[1][5];
+        rangeAttaque=detailCardArray[1][6];
+        castArea=detailCardArray[1][7];
+        vitesseMax=detailCardArray[1][8];
+        timeVitesseMax=detailCardArray[1][9];
+        timeBetweenAttaque=detailCardArray[1][10];
+        power1=detailCardArray[1][11];
+        power2=detailCardArray[1][12];
+
+        let tab=[name,level,health,dammage,mana,theme,typeCarte,typePerso,rarete,rangeAttaque,castArea,vitesseMax,timeVitesseMax,timeBetweenAttaque,power1,power2];
+        array.push(tab);
+    }
+    let CSVToString=CSV.stringify(array,";");
+    fs.writeFile("detailCard.csv", CSVToString, (err) => {
+        if (err) console.log(err);
+        console.log("Successfully Written to File.");
+    });
+
+    res.render('detailListCard',{array:array})
+});
+
 router.get('/calculation', function(req, res, next) {
     res.render('Calculation');
 });
+
+router.get('/betterhealth', function(req, res, next) {
+    res.render('ListBetter',{title:"la santé"});
+});
+
+router.get('/betterdamage', function(req, res, next) {
+    res.render('ListBetter',{title:"les dommages"});
+});
+
+router.get('/bettermana', function(req, res, next) {
+    res.render('ListBetter',{title:"la mana"});
+});
+
+router.get('/bettercombi', function(req, res, next) {
+    res.render();
+});
+
+
 
 
 module.exports = router;
