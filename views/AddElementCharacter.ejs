@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter des éléments dans la liste></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<% if(done){ %>
+    <p>Voulez-vous rajouter un personnage?</p>
+<form action="/ajouterlistPerso" method="get">
+    <input type="submit" value="oui">
+</form>
+    <form action="/" method="get">
+        <input type="submit" value="non">
+    </form>
+<% }else{ %>
+
+
+<form action="/ajouterlistPerso" method="post">
+
+    <label for="choix_card">Indiquez la carte à ajouter :</label>
+    <input list="cards" type="text" id="choix_card" name="card">
+    <datalist id="cards">
+        <option value="Stan the Great">
+        <option value="Program Stan">
+        <option value="Poseidon Stan">
+        <option value="Grand Wizard Cartman">
+        <option value="Gunslinger Kyle">
+        <option value="Princess Kenny">
+        <option value="A.W.E.S.O.M.-O 4000">
+        <option value="Little Choirboy">
+        <option value="Freeze Ray">
+        <option value="Sexy Nun Randy">
+        <option value="Sheriff Cartman">
+        <option value="Warboy Tweek">
+        <option value="Robin Tweek">
+        <option value="Incan Craig">
+        <option value="Marine Craig">
+        <option value="Hookhand Clyde">
+        <option value="Hercules Clyde">
+        <option value="Ice Sniper Wendy">
+        <option value="Rogue Token">
+        <option value="Astronaut Butters">
+        <option value="Paladin Butters">
+        <option value="Dark Mage Craig">
+        <option value="Choirboy Butters">
+        <option value="Hallelujah">
+        <option value="Angel Wendy">
+        <option value="Pope Timmy">
+        <option value="Mecha Timmy">
+        <option value="Kyle of the Drow Elves">
+        <option value="Catapult Timmy">
+        <option value="Pirate Ship Timmy">
+        <option value="Smuggler Ike">
+        <option value="Gizmo Ike">
+        <option value="Inuit Kenny">
+        <option value="The Amazingly Randy">
+        <option value="Sixth Element Randy">
+        <option value="Hermes Kenny">
+        <option value="Captain Wendy">
+        <option value="Shieldmaiden Wendy">
+        <option value="Canadian Knight Ike">
+        <option value="Cyborg Kenny">
+        <option value="Zen Cartman">
+        <option value="Dwarf King Clyde">
+        <option value="Lightning Bolt">
+        <option value="Alien Clyde">
+        <option value="Shaman Token">
+        <option value="Witch Doctor Token">
+        <option value="Space Warrior Token">
+        <option value="Storyteller Jimmy">
+        <option value="Le Bard Jimmy">
+        <option value="Friar Jimmy">
+        <option value="Enforcer Jimmy">
+        <option value="The Master Ninjew">
+        <option value="Hyperdrive">
+        <option value="Mind Control">
+        <option value="Purify">
+        <option value="Unholy Combustion">
+        <option value="Arrowstorm">
+        <option value="Regeneration">
+        <option value="Power Bind">
+        <option value="Barrel Dougie">
+        <option value="Energy Staff">
+        <option value="Powerfist Dougie">
+        <option value="Rat Swarm">
+        <option value="Indian Brave">
+        <option value="A Cock">
+        <option value="Cock Magic">
+        <option value="Prophet Dougie">
+        <option value="Dwarf Engineer Dougie">
+        <option value="Alien Queen Red">
+        <option value="Transmogrify">
+        <option value="Chicken Coop">
+        <option value="Poison">
+        <option value="Mimsy">
+        <option value="Terrance Mephesto">
+        <option value="Nelly">
+        <option value="Starvin' Marvin">
+        <option value="Manbearpig">
+        <option value="Dogpoo">
+        <option value="Terrance and Phillip">
+        <option value="Big Gay Al">
+        <option value="Officer Barbrady">
+        <option value="Pigeon Gang">
+        <option value="Underpants Gnomes">
+        <option value="Bandita Sally">
+        <option value="Calamity Heidi">
+        <option value="Auto-Vacuum">
+        <option value="Medusa Bebe">
+        <option value="Robo Bebe">
+        <option value="Blood Elf Bebe">
+        <option value="Buccaneer Bebe">
+        <option value="Visitors">
+        <option value="Snake">
+        <option value="Marcus">
+        <option value="Mr. Hankey">
+        <option value="PC Principal">
+        <option value="Cupid Cartman">
+        <option value="Towelie">
+        <option value="Priest Maxi">
+        <option value="Bounty Hunter Kyle">
+        <option value="Imp Tweek">
+        <option value="Witch Garrison">
+        <option value="Mr. Mackey">
+        <option value="Youth Pastor Craig">
+        <option value="Satan">
+        <option value="Mr. Slave Executioner">
+        <option value="Alien Drone">
+        <option value="Santa Claus">
+        <option value="Swordsman Garrison">
+        <option value="Classi">
+        <option value="Four-assed Monkey">
+        <option value="Dragonslayer Red">
+        <option value="Medicine Woman Sharon">
+        <option value="Pocahontas Randy">
+        <option value="Stan of Many Moons">
+        <option value="Nathan">
+        <option value="Fireball">
+        <option value="Deckhand Butters">
+        <option value="Outlaw Tweek">
+        <option value="Sharpshooter Shelly">
+        <option value="Scout Ike">
+        <option value="Elven King Bradley">
+        <option value="Swashbuckler Red">
+        <option value="Chomper">
+        <option value="Call Girl">
+        <option value="Fastpass">
+        <option value="Human Kite">
+        <option value="Mosquito">
+        <option value="Mysterion">
+        <option value="Super Fart">
+        <option value="The Coon">
+        <option value="Toolshed">
+        <option value="Tupperware">
+        <option value="Professor Chaos">
+        <option value="Lava!">
+        <option value="Mosquito Swarm">
+        <option value="Captain Diabetes">
+        <option value="Big Mesquite Murph">
+        <option value="Sorceress Liane">
+        <option value="Mint-berry Crunch">
+        <option value="President Garrison">
+        <option value="Doctor Timothy">
+        <option value="Jesus">
+        <option value="Mayor McDaniels">
+        <option value="Sizzler Stuart">
+        <option value="Super Craig">
+        <option value="Wonder Tweek">
+        <option value="Thunderbird">
+        <option value="General Disarray">
+    </datalist>
+
+    <label for="niveau">Indiquez le niveau :</label>
+    <select name="level" id="niveau">
+        <option value="Level 1">Level 1</option>
+        <option value="Upgrade 2/70">Upgrade 2/70</option>
+        <option value="Upgrade 3/70">Upgrade 3/70</option>
+        <option value="Upgrade 4/70">Upgrade 4/70</option>
+        <option value="Upgrade 5/70">Upgrade 5/70</option>
+        <option value="Level 2">Level 2</option>
+        <option value="Upgrade 6/70">Upgrade 6/70</option>
+        <option value="Upgrade 7/70">Upgrade 7/70</option>
+        <option value="Upgrade 8/70">Upgrade 8/70</option>
+        <option value="Upgrade 9/70">Upgrade 9/70</option>
+        <option value="Upgrade 10/70">Upgrade 10/70</option>
+        <option value="Upgrade 11/70">Upgrade 11/70</option>
+        <option value="Upgrade 12/70">Upgrade 12/70</option>
+        <option value="Upgrade 13/70">Upgrade 13/70</option>
+        <option value="Upgrade 14/70">Upgrade 14/70</option>
+        <option value="Upgrade 15/70">Upgrade 15/70</option>
+        <option value="Level 3">Level 3</option>
+        <option value="Upgrade 16/70">Upgrade 16/70</option>
+        <option value="Upgrade 17/70">Upgrade 17/70</option>
+        <option value="Upgrade 18/70">Upgrade 18/70</option>
+        <option value="Upgrade 19/70">Upgrade 19/70</option>
+        <option value="Upgrade 20/70">Upgrade 20/70</option>
+        <option value="Upgrade 21/70">Upgrade 21/70</option>
+        <option value="Upgrade 22/70">Upgrade 22/70</option>
+        <option value="Upgrade 23/70">Upgrade 23/70</option>
+        <option value="Upgrade 24/70">Upgrade 24/70</option>
+        <option value="Upgrade 25/70">Upgrade 25/70</option>
+        <option value="Level 4">Level 4</option>
+        <option value="Upgrade 26/70">Upgrade 26/70</option>
+        <option value="Upgrade 27/70">Upgrade 27/70</option>
+        <option value="Upgrade 28/70">Upgrade 28/70</option>
+        <option value="Upgrade 29/70">Upgrade 29/70</option>
+        <option value="Upgrade 30/70">Upgrade 30/70</option>
+        <option value="Upgrade 31/70">Upgrade 31/70</option>
+        <option value="Upgrade 32/70">Upgrade 32/70</option>
+        <option value="Upgrade 33/70">Upgrade 33/70</option>
+        <option value="Upgrade 34/70">Upgrade 34/70</option>
+        <option value="Upgrade 35/70">Upgrade 35/70</option>
+        <option value="Upgrade 36/70">Upgrade 36/70</option>
+        <option value="Upgrade 37/70">Upgrade 37/70</option>
+        <option value="Upgrade 38/70">Upgrade 38/70</option>
+        <option value="Upgrade 39/70">Upgrade 39/70</option>
+        <option value="Upgrade 40/70">Upgrade 40/70</option>
+        <option value="Level 5">Level 5</option>
+        <option value="Upgrade 41/70">Upgrade 41/70</option>
+        <option value="Upgrade 42/70">Upgrade 42/70</option>
+        <option value="Upgrade 43/70">Upgrade 43/70</option>
+        <option value="Upgrade 44/70">Upgrade 44/70</option>
+        <option value="Upgrade 45/70">Upgrade 45/70</option>
+        <option value="Upgrade 46/70">Upgrade 46/70</option>
+        <option value="Upgrade 47/70">Upgrade 47/70</option>
+        <option value="Upgrade 48/70">Upgrade 48/70</option>
+        <option value="Upgrade 49/70">Upgrade 49/70</option>
+        <option value="Upgrade 50/70">Upgrade 50/70</option>
+        <option value="Upgrade 51/70">Upgrade 51/70</option>
+        <option value="Upgrade 52/70">Upgrade 52/70</option>
+        <option value="Upgrade 53/70">Upgrade 53/70</option>
+        <option value="Upgrade 54/70">Upgrade 54/70</option>
+        <option value="Upgrade 55/70">Upgrade 55/70</option>
+        <option value="Level 6">Level 6</option>
+        <option value="Upgrade 56/70">Upgrade 56/70</option>
+        <option value="Upgrade 57/70">Upgrade 57/70</option>
+        <option value="Upgrade 58/70">Upgrade 58/70</option>
+        <option value="Upgrade 59/70">Upgrade 59/70</option>
+        <option value="Upgrade 60/70">Upgrade 60/70</option>
+        <option value="Upgrade 61/70">Upgrade 61/70</option>
+        <option value="Upgrade 62/70">Upgrade 62/70</option>
+        <option value="Upgrade 63/70">Upgrade 63/70</option>
+        <option value="Upgrade 64/70">Upgrade 64/70</option>
+        <option value="Upgrade 65/70">Upgrade 65/70</option>
+        <option value="Upgrade 66/70">Upgrade 66/70</option>
+        <option value="Upgrade 67/70">Upgrade 67/70</option>
+        <option value="Upgrade 68/70">Upgrade 68/70</option>
+        <option value="Upgrade 69/70">Upgrade 69/70</option>
+        <option value="Upgrade 70/70">Upgrade 70/70</option>
+        <option value="Level 7">Level 7</option>
+    </select>
+    <input type="submit" value="Valider">
+</form>
+    <br>
+<table>
+<tr>
+    <td>Nom</td>
+    <td>Level</td>
+</tr>
+<% for(var i=0;i<array.length;i++){ %>
+    <tr>
+        <td><%=array[i][0]%></td>
+        <td><%=array[i][1]%></td>
+    </tr>
+<%} %>
+</table>
+
+
+<% } %>
+</body>
+</html>
