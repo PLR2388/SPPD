@@ -9,7 +9,7 @@
 <label for="old">Indiquez la carte à modifier :</label>
 <br>
 <form action="/modifierlistPerso" method="post">
-<input list="cards" type="text" id="old" name="card">
+<input list="cards0" type="text" id="old" name="oldCard">
 <datalist id="cards0">
     <%for(var i=0;i<array.length;i++){ %>
     <option value="<%=array[i][0]%>">
@@ -17,7 +17,7 @@
 </datalist>
     <br>
     <label for="new">Indiquez la nouvelle carte :</label>
-    <input list="cards1" type="text" id="new" name="card">
+    <input list="cards1" type="text" id="new" name="newCard">
     <datalist id="cards1">
         <option value="Stan the Great">
         <option value="Program Stan">
@@ -247,8 +247,6 @@
         <option value="Upgrade 70/70">Upgrade 70/70</option>
         <option value="Level 7">Level 7</option>
     </select>
-
-
     <input type="submit" value="valider">
 </form>
 <% }else{ %>
