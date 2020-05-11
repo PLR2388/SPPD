@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Modification de liste personnage></title>
+    <title>Modifier des éléments dans la liste</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
@@ -15,6 +15,7 @@
     <option value="<%=array[i][0]%>">
         <%   }  %>
 </datalist>
+    <br>
     <br>
     <label for="new">Indiquez la nouvelle carte :</label>
     <input list="cards1" type="text" id="new" name="newCard">
@@ -257,6 +258,21 @@
     <form action="/" method="get">
         <input type="submit" value="non">
     </form>
+
+    <p>Nouvelle liste :</p>
+        <br>
+    <table>
+        <tr>
+            <td>Nom</td>
+            <td>Level</td>
+        </tr>
+        <% for(var i=0;i<array.length;i++){ %>
+        <tr>
+            <td><%=array[i][0]%></td>
+            <td><%=array[i][1]%></td>
+        </tr>
+        <%} %>
+    </table>
 <% } %>
 </body>
 </html>

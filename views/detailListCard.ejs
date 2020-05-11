@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Details des cartes de l'équipe></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1>Tableau détails des cartes</h1>
+<table>
+<tr>
+    <td>Nom</td>
+    <td>Level</td>
+</tr>
+<% for(var i=0;i<array.length;i++){ %>
+    <tr>
+        <td><%=array[i][0]%></td>
+        <td><%=array[i][1]%></td>
+    </tr>
+<%} %>
+</table>
+
+
+</body>
+</html>

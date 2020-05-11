@@ -82,9 +82,46 @@ router.post('/modifierlistPerso', function(req, res, next) {
 
 
 router.get('/supprimerlistPerso', function(req, res, next) {
-    res.render('ModificationCharacterList');
+    currentTeam="";
+    try {
+        const data = fs.readFileSync('team.csv', 'utf8')
+        currentTeam=data;
+    } catch (err) {
+        console.error(err)
+    }
+    const arr = CSV.parse(currentTeam);
+    res.render('DeleteElementCharacter',{done:false,array:arr});
 });
 
+router.post('/supprimerlistPerso', function(req, res, next) {
+    let oldCard=req.body.oldCard;
+
+    currentTeam="";
+    try {
+        const data = fs.readFileSync('team.csv', 'utf8')
+        currentTeam=data;
+    } catch (err) {
+        console.error(err)
+    }
+    const arr = CSV.parse(currentTeam);
+    for(let i=0;i<arr.length;i++){
+        if(arr[i][0]==oldCard){
+            arr.splice(i,1);
+            break;
+        }
+    }
+    console.log(arr);
+    let data=CSV.stringify(arr,";");
+    fs.writeFile("team.csv", data, (err) => {
+        if (err) console.log(err);
+        console.log("Successfully Written to File.");
+    });
+    res.render('DeleteElementCharacter',{done:true,array:arr});
+});
+
+router.get('/calculation', function(req, res, next) {
+    res.render('Calculation');
+});
 
 
 module.exports = router;

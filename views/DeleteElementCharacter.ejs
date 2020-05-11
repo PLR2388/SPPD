@@ -1,27 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Modification de liste personnage></title>
+    <title>Supprimer des éléments dans la liste</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
+<%if(!done){%>
+<label for="old">Indiquez la carte à modifier :</label>
+<br>
+<form action="/supprimerlistPerso" method="post">
+    <input list="cards0" type="text" id="old" name="oldCard">
+    <datalist id="cards0">
+        <%for(var i=0;i<array.length;i++){ %>
+        <option value="<%=array[i][0]%>">
+            <%   }  %>
+    </datalist>
 
-<form
-        action="/ajouterlistPerso"
-        method="GET">
-    <input type="submit" value="Ajouter à la liste">
+    <input type="submit" value="Valider">
 </form>
 
-<form
-action="/modifierlistPerso"
-method="GET">
-    <input type="submit" value="Modifier un élément de la liste">
-</form>
-<form
-        action="/supprimerlistPerso"
-        method="GET">
-    <input type="submit" value="Supprimer un élément de la liste">
-</form>
+<%}else{%>
+    <p>Voulez-vous supprimer un autre personnage?</p>
+    <form action="/supprimerlistPerso" method="get">
+        <input type="submit" value="oui">
+    </form>
+    <form action="/" method="get">
+        <input type="submit" value="non">
+    </form>
+
+    <p>Nouvelle liste :</p>
+        <br>
+    <table>
+        <tr>
+            <td>Nom</td>
+            <td>Level</td>
+        </tr>
+        <% for(var i=0;i<array.length;i++){ %>
+        <tr>
+            <td><%=array[i][0]%></td>
+            <td><%=array[i][1]%></td>
+        </tr>
+        <%} %>
+    </table>
+
+    <%}%>
 
 
 </body>
