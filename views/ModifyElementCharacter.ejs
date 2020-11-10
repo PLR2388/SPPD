@@ -8,7 +8,7 @@
 <%if(!done){%>
 <label for="old">Indiquez la carte à modifier :</label>
 <br>
-<form action="/modifierlistPerso" method="post">
+<form action="characters/modifierlistPerso" method="post">
 <input list="cards0" type="text" id="old" name="oldCard">
 <datalist id="cards0">
     <%for(var i=0;i<array.length;i++){ %>

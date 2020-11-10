@@ -8,7 +8,7 @@
 <%if(!done){%>
 <label for="old">Indiquez la carte à modifier :</label>
 <br>
-<form action="/supprimerlistPerso" method="post">
+<form action="characters/supprimerlistPerso" method="post">
     <input list="cards0" type="text" id="old" name="oldCard">
     <datalist id="cards0">
         <%for(var i=0;i<array.length;i++){ %>
@@ -21,7 +21,7 @@
 
 <%}else{%>
     <p>Voulez-vous supprimer un autre personnage?</p>
-    <form action="/supprimerlistPerso" method="get">
+    <form action="characters/supprimerlistPerso" method="get">
         <input type="submit" value="oui">
     </form>
     <form action="/" method="get">

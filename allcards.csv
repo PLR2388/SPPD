@@ -1,0 +1,153 @@
+id;name;image;updated_at
+5caba674c83b14195097bef2;Stan the Great;StanFanCard;2020-06-11T01:01:31.158Z
+5caba674c83b14195097bef3;Program Stan;StanSciCard;2020-06-11T01:01:31.336Z
+5caba675c83b14195097bef4;Poseidon Stan;StanMysCard;2020-06-11T01:01:31.489Z
+5caba675c83b14195097bef5;Grand Wizard Cartman;CartmanFanCard;2020-06-11T01:01:31.634Z
+5caba676c83b14195097bef6;Gunslinger Kyle;KyleAdvCard;2020-06-11T01:01:31.803Z
+5caba676c83b14195097bef7;Princess Kenny;KennyFanCard;2020-06-11T01:01:32.102Z
+5caba676c83b14195097bef8;A.W.E.S.O.M.-O 4000;CartmanSciCard;2020-06-11T01:01:32.259Z
+5caba677c83b14195097bef9;Little Choirboy;ChoirBoyMysCard;2020-06-11T01:01:32.405Z
+5caba677c83b14195097befa;Freeze Ray;SpellFreezeCard;2020-06-11T01:01:32.641Z
+5caba678c83b14195097befb;Sexy Nun Randy;RandyMysCard;2020-06-11T01:01:32.745Z
+5caba678c83b14195097befc;Sheriff Cartman;CartmanAdvCard;2020-06-11T01:01:32.879Z
+5caba679c83b14195097befd;Warboy Tweek;TweekSciCard;2020-06-11T01:01:33.013Z
+5caba679c83b14195097befe;Robin Tweek;TweekFanCard;2020-06-11T01:01:33.141Z
+5caba679c83b14195097beff;Incan Craig;CraigAdvCard;2020-06-11T01:01:33.285Z
+5caba67ac83b14195097bf00;Marine Craig;CraigSciCard;2020-06-11T01:01:33.416Z
+5caba67ac83b14195097bf01;Hookhand Clyde;ClydeAdvCard;2020-06-11T01:01:33.539Z
+5caba67bc83b14195097bf02;Hercules Clyde;ClydeMysCard;2020-06-11T01:01:33.660Z
+5caba67bc83b14195097bf03;Ice Sniper Wendy;WendySciCard;2020-06-11T01:01:33.779Z
+5caba67cc83b14195097bf04;Rogue Token;TokenFanCard;2020-06-11T01:01:33.911Z
+5caba67cc83b14195097bf05;Astronaut Butters;ButtersSciCard;2020-06-11T01:01:34.049Z
+5caba67cc83b14195097bf06;Paladin Butters;ButtersFanCard;2020-06-11T01:01:34.173Z
+5caba67dc83b14195097bf07;Dark Mage Craig;CraigFanCard;2020-06-11T01:01:34.303Z
+5caba67dc83b14195097bf08;Choirboy Butters;ButtersMysCard;2020-06-11T01:01:34.443Z
+5caba67dc83b14195097bf09;Hallelujah;SpellHallelujahCard;2020-06-11T01:01:34.564Z
+5caba67dc83b14195097bf0a;Angel Wendy;WendyMysCard;2020-06-11T01:01:34.675Z
+5caba67ec83b14195097bf0b;Pope Timmy;TimmyMysCard;2020-06-11T01:01:34.811Z
+5caba67ec83b14195097bf0c;Mecha Timmy;TimmySciCard;2020-06-11T01:01:34.946Z
+5caba67fc83b14195097bf0d;Kyle of the Drow Elves;KyleFanCard;2020-06-11T01:01:35.067Z
+5caba67fc83b14195097bf0e;Catapult Timmy;TimmyFanCard;2020-06-11T01:01:35.208Z
+5caba67fc83b14195097bf0f;Pirate Ship Timmy;TimmyAdvCard;2020-06-11T01:01:35.359Z
+5caba67fc83b14195097bf10;Smuggler Ike;IkeAdvCard;2020-06-11T01:01:35.491Z
+5caba680c83b14195097bf11;Gizmo Ike;IkeSciCard;2020-06-11T01:01:35.730Z
+5caba680c83b14195097bf12;Inuit Kenny;KennyAdvCard;2020-06-11T01:01:35.857Z
+5caba680c83b14195097bf13;The Amazingly Randy;RandyFanCard;2020-06-11T01:01:35.977Z
+5caba681c83b14195097bf14;Sixth Element Randy;RandySciCard;2020-06-11T01:01:36.122Z
+5caba681c83b14195097bf15;Hermes Kenny;KennyMysCard;2020-06-11T01:01:36.269Z
+5caba681c83b14195097bf16;Captain Wendy;WendyAdvCard;2020-06-11T01:01:36.397Z
+5caba681c83b14195097bf17;Shieldmaiden Wendy;WendyFanCard;2020-06-11T01:01:36.538Z
+5caba681c83b14195097bf18;Canadian Knight Ike;IkeFanCard;2020-06-11T01:01:36.678Z
+5caba682c83b14195097bf19;Cyborg Kenny;KennySciCard;2020-06-11T01:01:36.805Z
+5caba682c83b14195097bf1a;Zen Cartman;CartmanMysCard;2020-06-11T01:01:36.929Z
+5caba682c83b14195097bf1b;Dwarf King Clyde;ClydeFanCard;2020-06-11T01:01:37.060Z
+5caba682c83b14195097bf1c;Lightning Bolt;SpellLightningBoltCard;2020-06-11T01:01:37.183Z
+5caba683c83b14195097bf1d;Alien Clyde;ClydeSciCard;2020-06-11T01:01:37.291Z
+5caba683c83b14195097bf1e;Shaman Token;TokenAdvCard;2020-06-11T01:01:37.420Z
+5caba683c83b14195097bf1f;Witch Doctor Token;TokenMysCard;2020-06-11T01:01:37.548Z
+5caba683c83b14195097bf20;Space Warrior Token;TokenSciCard;2020-06-11T01:01:37.687Z
+5caba683c83b14195097bf21;Storyteller Jimmy;JimmyAdvCard;2020-06-11T01:01:37.817Z
+5caba684c83b14195097bf22;Le Bard Jimmy;JimmyFanCard;2020-06-11T01:01:37.941Z
+5caba684c83b14195097bf23;Friar Jimmy;JimmyMysCard;2020-06-11T01:01:38.061Z
+5caba684c83b14195097bf24;Enforcer Jimmy;JimmySciCard;2020-06-11T01:01:38.207Z
+5caba684c83b14195097bf25;The Master Ninjew;KyleMysCard;2020-06-11T01:01:38.328Z
+5caba685c83b14195097bf26;Hyperdrive;SpellHyperdriveCard;2020-06-11T01:01:38.445Z
+5caba685c83b14195097bf27;Mind Control;SpellMindControlCard;2020-06-11T01:01:38.542Z
+5caba685c83b14195097bf28;Purify;SpellPurityCard;2020-06-11T01:01:38.640Z
+5caba685c83b14195097bf29;Unholy Combustion;SpellAssassinateCard;2020-06-11T01:01:38.735Z
+5caba685c83b14195097bf2a;Arrowstorm;SpellArrowstormCard;2020-06-11T01:01:38.842Z
+5caba686c83b14195097bf2b;Regeneration;SpellRegenerationCard;2020-06-11T01:01:38.945Z
+5caba686c83b14195097bf2c;Power Bind;SpellPowerBindCard;2020-06-11T01:01:39.049Z
+5caba686c83b14195097bf2d;Barrel Dougie;DougieAdvCard;2020-06-11T01:01:39.162Z
+5caba686c83b14195097bf2e;Energy Staff;ManaStaffMysTotCard;2020-06-11T01:01:39.301Z
+5caba687c83b14195097bf2f;Powerfist Dougie;DougieSciCard;2020-06-11T01:01:39.435Z
+5caba687c83b14195097bf30;Rat Swarm;RatswarmGenCard;2020-06-11T01:01:39.578Z
+5caba687c83b14195097bf31;Indian Brave;KidmeleeAdvCard;2020-06-11T01:01:39.710Z
+5caba687c83b14195097bf32;A Cock;RoosterGenCard;2020-06-11T01:01:39.814Z
+5caba687c83b14195097bf33;Cock Magic;SpellCockMagicCard;2020-06-11T01:01:39.916Z
+5caba687c83b14195097bf34;Prophet Dougie;DougieMysCard;2020-06-11T01:01:40.018Z
+5caba688c83b14195097bf35;Dwarf Engineer Dougie;DougieFanCard;2020-06-11T01:01:40.139Z
+5caba688c83b14195097bf36;Alien Queen Red;RedSciCard;2020-06-11T01:01:40.258Z
+5caba688c83b14195097bf37;Transmogrify;SpellTransformFanCard;2020-06-11T01:01:40.516Z
+5caba688c83b14195097bf38;Chicken Coop;ChickencoopFanTotCard;2020-06-11T01:01:40.623Z
+5caba688c83b14195097bf39;Poison;SpellPoisonAuraCard;2020-06-11T01:01:40.738Z
+5caba689c83b14195097bf3a;Mimsy;MimsyAdvCard;2020-06-11T01:01:40.846Z
+5caba689c83b14195097bf3b;Terrance Mephesto;TerrancemephestoGenCard;2020-06-11T01:01:40.981Z
+5caba689c83b14195097bf3c;Nelly;NellyGenCard;2020-06-11T01:01:41.104Z
+5caba689c83b14195097bf3d;Starvin' Marvin;StarvinmarvinGenCard;2020-06-11T01:01:41.232Z
+5caba68ac83b14195097bf3e;Manbearpig;ManbearpigGenCard;2020-06-11T01:01:41.371Z
+5caba68ac83b14195097bf3f;Dogpoo;DogpooGenCard;2020-06-11T01:01:41.492Z
+5caba68ac83b14195097bf40;Terrance and Phillip;TerrancephillipGenCard;2020-06-11T01:01:41.618Z
+5caba68ac83b14195097bf41;Big Gay Al;BiggayalGenCard;2020-06-11T01:01:41.744Z
+5caba68ac83b14195097bf42;Officer Barbrady;OfficerbarbradyGenCard;2020-06-11T01:01:41.868Z
+5caba68bc83b14195097bf43;Pigeon Gang;PigeonmobGenCard;2020-06-11T01:01:41.990Z
+5caba68bc83b14195097bf44;Underpants Gnomes;UnderpantsgnomesFanCard;2020-06-11T01:01:42.114Z
+5caba68bc83b14195097bf45;Bandita Sally;SallybandsAdvCard;2020-06-11T01:01:42.257Z
+5caba68bc83b14195097bf46;Calamity Heidi;HeiditurnerAdvCard;2020-06-11T01:01:42.393Z
+5caba68bc83b14195097bf47;Auto-Vacuum;RoombaSciCard;2020-06-11T01:01:42.513Z
+5caba68cc83b14195097bf48;Medusa Bebe;BebeMysCard;2020-06-11T01:01:42.622Z
+5caba68cc83b14195097bf49;Robo Bebe;BebeSciCard;2020-06-11T01:01:42.759Z
+5caba68cc83b14195097bf4a;Blood Elf Bebe;BebeFanCard;2020-06-11T01:01:42.879Z
+5caba68cc83b14195097bf4b;Buccaneer Bebe;BebeAdvCard;2020-06-11T01:01:43.007Z
+5caba68dc83b14195097bf4c;Visitors;VisitorsSciCard;2020-06-11T01:01:43.131Z
+5caba68dc83b14195097bf4d;Snake;SnakeGenCard;2020-06-11T01:01:43.259Z
+5caba68dc83b14195097bf4e;Marcus;MarcusGenCard;2020-06-11T01:01:43.365Z
+5caba68dc83b14195097bf4f;Mr. Hankey;MrhankeyGenCard;2020-06-11T01:01:43.498Z
+5caba68dc83b14195097bf50;PC Principal;PcprincipalGenCard;2020-06-11T01:01:43.618Z
+5caba68dc83b14195097bf51;Cupid Cartman;CupidcartmanMysCard;2020-06-11T01:01:43.741Z
+5caba68ec83b14195097bf52;Towelie;TowelieGenCard;2020-06-11T01:01:43.861Z
+5caba68ec83b14195097bf53;Priest Maxi;FathermaxiMysCard;2020-06-11T01:01:43.980Z
+5caba68ec83b14195097bf54;Bounty Hunter Kyle;KyleSciCard;2020-06-11T01:01:44.101Z
+5caba68ec83b14195097bf55;Imp Tweek;TweekMysCard;2020-06-11T01:01:44.222Z
+5caba68ec83b14195097bf56;Witch Garrison;MrgarrisonFanCard;2020-06-11T01:01:44.337Z
+5caba68ec83b14195097bf57;Mr. Mackey;MrmackeyGenCard;2020-06-11T01:01:44.469Z
+5caba68fc83b14195097bf58;Youth Pastor Craig;CraigMysCard;2020-06-11T01:01:44.612Z
+5caba68fc83b14195097bf59;Satan;SatanGenCard;2020-06-11T01:01:44.742Z
+5caba68fc83b14195097bf5a;Mr. Slave Executioner;MrslaveFanCard;2020-06-11T01:01:44.861Z
+5caba68fc83b14195097bf5b;Alien Drone;DroneSciCard;2020-06-11T01:01:44.997Z
+5caba690c83b14195097bf5c;Santa Claus;SantaGenCard;2020-06-11T01:01:45.117Z
+5caba690c83b14195097bf5d;Swordsman Garrison;MrgarrisonAdvCard;2020-06-11T01:01:45.236Z
+5caba690c83b14195097bf5e;Classi;ClassiGenCard;2020-06-11T01:01:45.359Z
+5caba690c83b14195097bf5f;Four-assed Monkey;FourassedmonkeyGenCard;2020-06-11T01:01:45.483Z
+5caba690c83b14195097bf60;Dragonslayer Red;RedFanCard;2020-06-11T01:01:45.607Z
+5caf4b16422efa19c93ef407;Medicine Woman Sharon;SharonAdvCard;2020-06-11T01:01:30.005Z
+5caf4b16422efa19c93ef408;Pocahontas Randy;RandyAdvCard;2020-06-11T01:01:30.214Z
+5caf4b16422efa19c93ef409;Stan of Many Moons;StanAdvCard;2020-06-11T01:01:30.362Z
+5caf4b17422efa19c93ef40a;Nathan;NathanAdvCard;2020-06-11T01:01:30.555Z
+5caf4b17422efa19c93ef40b;Fireball;SpellDynamiteCard;2020-06-11T01:01:30.682Z
+5caf4b17422efa19c93ef40c;Deckhand Butters;ButtersAdvCard;2020-06-11T01:01:30.813Z
+5caf4b17422efa19c93ef40d;Outlaw Tweek;TweekAdvCard;2020-06-11T01:01:31.009Z
+5caf4bf3422efa19c93ef40f;Sharpshooter Shelly;ShellyAdvCard;2020-06-11T01:01:45.740Z
+5cccc287422efa19c93ef411;Scout Ike;IkeMysCard;2020-06-11T01:01:45.885Z
+5d2cc92c4ab7406b27305dac;Elven King Bradley;BradleyFanCard;2020-06-11T01:01:46.013Z
+5d2cc92d4ab7406b27305dad;Swashbuckler Red;RedAdvCard;2020-06-11T01:01:46.137Z
+5d2cc92e4ab7406b27305dae;Chomper;TrapChomperCard;2020-06-11T01:01:46.256Z
+5d2cc92e4ab7406b27305daf;Call Girl;WendySupCard;2020-06-11T01:01:46.359Z
+5d2cc92f4ab7406b27305db0;Fastpass;JimmySupCard;2020-06-11T01:01:46.480Z
+5d2cc9304ab7406b27305db1;Human Kite;KyleSupCard;2020-06-11T01:01:46.613Z
+5d2cc9304ab7406b27305db2;Mosquito;ClydeSupCard;2020-06-11T01:01:46.733Z
+5d2cc9314ab7406b27305db3;Mysterion;KennySupCard;2020-06-11T01:01:46.877Z
+5d2cc9324ab7406b27305db4;Super Fart;SpellFartpushCard;2020-06-11T01:01:47.005Z
+5d2cc9334ab7406b27305db5;The Coon;CartmanSupCard;2020-06-11T01:01:47.107Z
+5d2cc9334ab7406b27305db6;Toolshed;StanSupCard;2020-06-11T01:01:47.232Z
+5d2cc9344ab7406b27305db7;Tupperware;TokenSupCard;2020-06-11T01:01:47.361Z
+5d7faa843ff86c0f1e9ee0e2;Professor Chaos;ButtersSupCard;2020-06-11T01:01:47.488Z
+5d7fab503ff86c0f1e9ee0e4;Lava!;LavaSupTrapCard;2020-06-11T01:01:47.615Z
+5d7fab893ff86c0f1e9ee0e6;Mosquito Swarm;MosquitoSupCard;2020-06-11T01:01:47.723Z
+5dc5b4fa365c1a17edeb7ec8;Captain Diabetes;ScottSupCard;2020-06-11T01:01:47.826Z
+5dc5b4fb365c1a17edeb7ec9;Big Mesquite Murph;BigmurphAdvCard;2020-06-11T01:01:47.949Z
+5dc6160a365c1a17edeb7eca;Sorceress Liane;LianeFanCard;2020-06-11T01:01:48.069Z
+5dc6160b365c1a17edeb7ecb;Mint-berry Crunch;BradleySupCard;2020-06-11T01:01:48.192Z
+5dc6160b365c1a17edeb7ecc;President Garrison;MrgarrisonGenCard;2020-06-11T01:01:48.323Z
+5dcde31e365c1a17edeb7ecd;Doctor Timothy;TimmySupCard;2020-06-11T01:01:48.439Z
+5e3887f103aa2c075a020853;Jesus;JesusMysCard;2020-06-11T01:01:48.556Z
+5e3887f203aa2c075a020854;Mayor McDaniels;McdanielsGenCard;2020-06-11T01:01:48.692Z
+5e3887f303aa2c075a020855;Sizzler Stuart;StuartSciCard;2020-06-11T01:01:48.811Z
+5e44370b759edf0868982d43;Super Craig;CraigSupCard;2020-06-11T01:01:48.930Z
+5e44370b759edf0868982d44;Wonder Tweek;TweekSupCard;2020-06-11T01:01:49.045Z
+5e792824ccce5306c2f2139b;Thunderbird;DroneAdvCard;2020-06-11T01:01:49.181Z
+5ea49ca7ccce5306c2f2139c;General Disarray;DougieSupCard;2020-06-11T01:01:49.303Z
+5ec04c41da635b2a6b51946a;City Wok Guy;MrkimFanCard;2020-06-11T01:01:49.424Z
+5ee1824dda635b2a6b51946b;Space Pilot Bradley;BradleySciCard;2020-06-11T01:01:49.553Z
+5f1c675ada635b2a6b51946c;Chaos Hamsters;HamsterSupCard;2020-05-16T20:09:39.657Z
+5f1c675ada635b2a6b51946d;Dark Angel Red;RedMysCard;2020-05-16T20:09:39.657Z

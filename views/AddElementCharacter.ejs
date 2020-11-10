@@ -7,7 +7,7 @@
 <body>
 <% if(done){ %>
     <p>Voulez-vous rajouter un personnage?</p>
-<form action="/ajouterlistPerso" method="get">
+<form action="characters/ajouterlistPerso" method="get">
     <input type="submit" value="oui">
 </form>
     <form action="/" method="get">
@@ -16,7 +16,7 @@
 <% }else{ %>
 
 
-<form action="/ajouterlistPerso" method="post">
+<form action="characters/ajouterlistPerso" method="post">
 
     <label for="choix_card">Indiquez la carte à ajouter :</label>
     <input list="cards" type="text" id="choix_card" name="card">
