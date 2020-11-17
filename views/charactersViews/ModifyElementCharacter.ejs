@@ -6,9 +6,17 @@
 </head>
 <body>
 <%if(!done){%>
+
+<%if(array.length==0){%>
+    <h1> Il n'y a pas d'éléments à modifier</h1>
+    <form action="/characters" method="get">
+        <input type="submit" value="Retour">
+    </form>
+
+<%} else {%>
 <label for="old">Indiquez la carte à modifier :</label>
 <br>
-<form action="characters/modifierlistPerso" method="post">
+<form action="/characters/modifierlistPerso" method="post">
 <input list="cards0" type="text" id="old" name="oldCard">
 <datalist id="cards0">
     <%for(var i=0;i<array.length;i++){ %>
@@ -250,9 +258,9 @@
     </select>
     <input type="submit" value="valider">
 </form>
-<% }else{ %>
+<% }}else{ %>
     <p>Voulez-vous modifier un autre personnage?</p>
-    <form action="/modifierlistPerso" method="get">
+    <form action="/characters/modifierlistPerso" method="get">
         <input type="submit" value="oui">
     </form>
     <form action="/" method="get">

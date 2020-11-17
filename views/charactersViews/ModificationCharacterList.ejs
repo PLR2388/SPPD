@@ -6,25 +6,30 @@
 </head>
 <body>
 <h1>Modification de la team actuelle</h1>
-<form action="characters/detailTeam" method="get">
+<form action="/characters/detailTeam" method="get">
     <input type="submit" value="Voir le détail de la liste">
 
 </form>
 <form
-        action="characters/ajouterlistPerso"
+        action="/characters/ajouterlistPerso"
         method="GET">
     <input type="submit" value="Ajouter à la liste">
 </form>
 
 <form
-action="characters/modifierlistPerso"
+action="/characters/modifierlistPerso"
 method="GET">
     <input type="submit" value="Modifier un élément de la liste">
 </form>
 <form
-        action="characters/supprimerlistPerso"
+        action="/characters/supprimerlistPerso"
         method="GET">
     <input type="submit" value="Supprimer un élément de la liste">
+</form>
+<form
+        action="/"
+        method="GET">
+    <input type="submit" value="Retour">
 </form>
 
 

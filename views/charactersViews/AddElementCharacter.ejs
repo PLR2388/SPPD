@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter des éléments dans la liste></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<% if(done){ %>
+    <p>Voulez-vous rajouter un personnage?</p>
+<form action="/characters/ajouterlistPerso" method="get">
+    <input type="submit" value="oui">
+</form>
+    <form action="/" method="get">
+        <input type="submit" value="non">
+    </form>
+<% }else{ %>
+
+
+<form action="/characters/ajouterlistPerso" method="post">
+
+    <label for="choix_card">Indiquez la carte à ajouter :</label>
+    <input list="cards" type="text" id="choix_card" name="card">
+    <datalist id="cards">
+        <% for(var i=0;i<nameCardsList.length;i++){ %>
+        <option value="<%=nameCardsList[i]%>"><%=nameCardsList[i]%></option>
+        <%} %>
+    </datalist>
+
+    <label for="niveau">Indiquez le niveau :</label>
+    <select name="level" id="niveau">
+        <option value="Level 1">Level 1</option>
+        <option value="Upgrade 2/70">Upgrade 2/70</option>
+        <option value="Upgrade 3/70">Upgrade 3/70</option>
+        <option value="Upgrade 4/70">Upgrade 4/70</option>
+        <option value="Upgrade 5/70">Upgrade 5/70</option>
+        <option value="Level 2">Level 2</option>
+        <option value="Upgrade 6/70">Upgrade 6/70</option>
+        <option value="Upgrade 7/70">Upgrade 7/70</option>
+        <option value="Upgrade 8/70">Upgrade 8/70</option>
+        <option value="Upgrade 9/70">Upgrade 9/70</option>
+        <option value="Upgrade 10/70">Upgrade 10/70</option>
+        <option value="Upgrade 11/70">Upgrade 11/70</option>
+        <option value="Upgrade 12/70">Upgrade 12/70</option>
+        <option value="Upgrade 13/70">Upgrade 13/70</option>
+        <option value="Upgrade 14/70">Upgrade 14/70</option>
+        <option value="Upgrade 15/70">Upgrade 15/70</option>
+        <option value="Level 3">Level 3</option>
+        <option value="Upgrade 16/70">Upgrade 16/70</option>
+        <option value="Upgrade 17/70">Upgrade 17/70</option>
+        <option value="Upgrade 18/70">Upgrade 18/70</option>
+        <option value="Upgrade 19/70">Upgrade 19/70</option>
+        <option value="Upgrade 20/70">Upgrade 20/70</option>
+        <option value="Upgrade 21/70">Upgrade 21/70</option>
+        <option value="Upgrade 22/70">Upgrade 22/70</option>
+        <option value="Upgrade 23/70">Upgrade 23/70</option>
+        <option value="Upgrade 24/70">Upgrade 24/70</option>
+        <option value="Upgrade 25/70">Upgrade 25/70</option>
+        <option value="Level 4">Level 4</option>
+        <option value="Upgrade 26/70">Upgrade 26/70</option>
+        <option value="Upgrade 27/70">Upgrade 27/70</option>
+        <option value="Upgrade 28/70">Upgrade 28/70</option>
+        <option value="Upgrade 29/70">Upgrade 29/70</option>
+        <option value="Upgrade 30/70">Upgrade 30/70</option>
+        <option value="Upgrade 31/70">Upgrade 31/70</option>
+        <option value="Upgrade 32/70">Upgrade 32/70</option>
+        <option value="Upgrade 33/70">Upgrade 33/70</option>
+        <option value="Upgrade 34/70">Upgrade 34/70</option>
+        <option value="Upgrade 35/70">Upgrade 35/70</option>
+        <option value="Upgrade 36/70">Upgrade 36/70</option>
+        <option value="Upgrade 37/70">Upgrade 37/70</option>
+        <option value="Upgrade 38/70">Upgrade 38/70</option>
+        <option value="Upgrade 39/70">Upgrade 39/70</option>
+        <option value="Upgrade 40/70">Upgrade 40/70</option>
+        <option value="Level 5">Level 5</option>
+        <option value="Upgrade 41/70">Upgrade 41/70</option>
+        <option value="Upgrade 42/70">Upgrade 42/70</option>
+        <option value="Upgrade 43/70">Upgrade 43/70</option>
+        <option value="Upgrade 44/70">Upgrade 44/70</option>
+        <option value="Upgrade 45/70">Upgrade 45/70</option>
+        <option value="Upgrade 46/70">Upgrade 46/70</option>
+        <option value="Upgrade 47/70">Upgrade 47/70</option>
+        <option value="Upgrade 48/70">Upgrade 48/70</option>
+        <option value="Upgrade 49/70">Upgrade 49/70</option>
+        <option value="Upgrade 50/70">Upgrade 50/70</option>
+        <option value="Upgrade 51/70">Upgrade 51/70</option>
+        <option value="Upgrade 52/70">Upgrade 52/70</option>
+        <option value="Upgrade 53/70">Upgrade 53/70</option>
+        <option value="Upgrade 54/70">Upgrade 54/70</option>
+        <option value="Upgrade 55/70">Upgrade 55/70</option>
+        <option value="Level 6">Level 6</option>
+        <option value="Upgrade 56/70">Upgrade 56/70</option>
+        <option value="Upgrade 57/70">Upgrade 57/70</option>
+        <option value="Upgrade 58/70">Upgrade 58/70</option>
+        <option value="Upgrade 59/70">Upgrade 59/70</option>
+        <option value="Upgrade 60/70">Upgrade 60/70</option>
+        <option value="Upgrade 61/70">Upgrade 61/70</option>
+        <option value="Upgrade 62/70">Upgrade 62/70</option>
+        <option value="Upgrade 63/70">Upgrade 63/70</option>
+        <option value="Upgrade 64/70">Upgrade 64/70</option>
+        <option value="Upgrade 65/70">Upgrade 65/70</option>
+        <option value="Upgrade 66/70">Upgrade 66/70</option>
+        <option value="Upgrade 67/70">Upgrade 67/70</option>
+        <option value="Upgrade 68/70">Upgrade 68/70</option>
+        <option value="Upgrade 69/70">Upgrade 69/70</option>
+        <option value="Upgrade 70/70">Upgrade 70/70</option>
+        <option value="Level 7">Level 7</option>
+    </select>
+    <input type="submit" value="Valider">
+</form>
+    <br>
+<table border>
+<tr>
+    <td>Nom</td>
+    <td>Level</td>
+</tr>
+<% for(var i=0;i<array.length;i++){ %>
+    <tr>
+        <td><%=array[i][0]%></td>
+        <td><%=array[i][1]%></td>
+    </tr>
+<%} %>
+</table>
+
+
+<% } %>
+</body>
+</html>

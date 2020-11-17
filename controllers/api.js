@@ -21,7 +21,7 @@ exports.cardsToCSV=()=>{
 
       try {
           fs.writeFile("./allcards.csv",text,()=>{
-              console.log("ERROR");
+              return json;
           });
       } catch (err) {
           console.error(err)
@@ -29,6 +29,11 @@ exports.cardsToCSV=()=>{
   })
 };
 
+/**
+ *  Deal with tech_tree to give value depending of the tree
+ *  JUST FOR CHARACTERS
+ * @param card a card
+ */
 exports.linkBetweenLevelAndUpdate = (card) => {
     const name = card.name;
     const tech_tree = card.tech_tree;
@@ -96,9 +101,16 @@ exports.linkBetweenLevelAndUpdate = (card) => {
         }
     }
     try {
-        fs.writeFile("./LevelDetails/" + name + ".csv",text,() => {
-            console.log("ERROR");
+
+        fs.mkdir('./LevelDetails', { recursive: true }, (err) => {
+            if (err) {
+                throw err
+            } else {
+                fs.writeFile("./LevelDetails/" + name + ".csv",text,() => {
+                });
+            }
         });
+
     } catch (err) {
         console.error(err)
     }
@@ -121,7 +133,8 @@ exports.dealWithAllCard=()=>{
             .then(reponse => {return reponse.json()})
             .then(json=>{
                 const data = json.data;
-                linkBetweenLevelAndUpdate(data);
+                this.linkBetweenLevelAndUpdate(data);
+                this.dealwithACard(data);
             });
     }
 }
@@ -159,8 +172,13 @@ exports.dealwithACard = (card) => {
         power1 + ";" + power2 + "\n";
 
     try {
-        fs.writeFile("./DetailCard/" + name + ".csv",text,() => {
-            console.log("ERROR");
+        fs.mkdir('./DetailCard', { recursive: true }, (err) => {
+            if (err) {
+                throw err
+            } else {
+                fs.writeFile("./DetailCard/" + name + ".csv", text, () => {
+                });
+            }
         });
     } catch (err) {
         console.error(err)
